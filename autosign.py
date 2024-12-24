@@ -18,6 +18,7 @@ headers = {
     'user-agent': 'Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36 Edg/123.0.0.0',
     'x-yz-action-id': 'wsc-h5-ump-0a37de1a-1711987203939-714513',
 }
+///尝试自动延长cookie有效期（思考中）
 conn.request(
     'GET',
     'https://h5.youzan.com/wscump/checkin/checkinV2.json?checkinId=20761&app_id=wx83e2dea9331b402b&kdt_id=40365584&access_token=380c14dfc4008bf8e15c65b317b17d',
